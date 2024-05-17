@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueOrigin Shop Clone</title>
+</head>
+
+<body id="home" class="scrollspy">
+
+    <!-- Section: Navigation -->
+    <div class="navbar-fixed">
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">
+                        <img src="img/logo.png" class="responsive-img" />
+                    </a>
+                    <a href="#" data-activates="mobile-nav" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="list.html">
+                                <i class="large material-icons">search</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="details.html">
+                                <i class="large material-icons">person</i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="cart.html">
+                                <i class="large material-icons">shopping_cart</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="right hide-on-med-and-down">
+                        <!-- Dropdown Trigger -->
+        
+                        <li>
+                            <a href="cart.html">Accessories</a>
+                        </li>
+                        <li>
+                            <a href="details.html">New Shepard</a>
+                        </li>
+                        <li>
+                            <a href="details.html">New Glenn</a>
+                        </li>
+                        <li>
+                            <a href="list.html">Gift Card</a>
+                        </li>
+                        <li>
+                            <a href="cart.html">Clearance</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Section: Navigation -->
+
+    <!-- Mobile Navigation -->
+    <ul class="side-nav" id="mobile-nav">
+        <li>
+            <a href="cart.html">Accessories</a>
+        </li>
+        <li>
+            <a href="details.html">New Shepard</a>
+        </li>
+        <li>
+            <a href="details.html">New Glenn</a>
+        </li>
+        <li>
+            <a href="list.html">Gift Card</a>
+        </li>
+        <li>
+            <a href="cart.html">Clearance</a>
+        </li>
+    </ul>
+
+
+    <!-- Section: Featured Product -->
+    <section id="featuredProduct" class="section section-gallery scrollspy">
+        <div class="container">
+            <h3 class="left-align">
+                <span>Featured Products Top </span>
+            </h3>
+            <div class="row">
+                <div class="col m3">
+                    <h4>
+                        Filter:
+                    </h4>
+
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header">
+                                Price
+                                <i class="caret material-icons">keyboard_arrow_down</i>
+                            </div>
+                          <div class="collapsible-body">
+                            <div class="rangeSlide">
+                                <div>$</div>
+                                <input type="number" placeholder="From"/>
+                                <input type="number" placeholder="To" />
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                Size
+                                <i class="caret material-icons">keyboard_arrow_down</i>
+                            </div>
+                          <div class="collapsible-body">
+                                <form action="#">
+                                    <p>
+                                    <input type="checkbox" id="test5" />
+                                    <label for="test5">XS (6)</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" id="test4" />
+                                        <label for="test4">S (7)</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" id="test3" />
+                                        <label for="test3">M (7)</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" id="test2" />
+                                        <label for="test2">L (7)</label>
+                                    </p>                                
+                                </form>
+                          </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                Product Type
+                                <i class="caret material-icons">keyboard_arrow_down</i>
+                            </div>
+                          <div class="collapsible-body">
+                            <form action="#">
+                                <p>
+                                <input type="checkbox" id="test1" />
+                                <label for="test1">Hats (6)</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" id="test6" />
+                                    <label for="test6">Medal (7)</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" id="test7" />
+                                    <label for="test7">Sweatshirts (7)</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" id="test8" />
+                                    <label for="test8">T-shirts (7)</label>
+                                </p>                                
+                            </form>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col m9">
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-1.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Pre-Sale Run for the Benefit of Earth Medal</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-2.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Run for the Benefit of Earth Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-3.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Women's For the Benefit of Earth Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-4.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">For the Benefit of Earth Grey Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-3.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Women's For the Benefit of Earth Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-4.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">For the Benefit of Earth Grey Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-3.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Women's For the Benefit of Earth Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-4.png" alt="">
+        
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">For the Benefit of Earth Grey Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-3.png" alt="">
+        
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Women's For the Benefit of Earth Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/featured-4.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">For the Benefit of Earth Grey Tee</span>
+                                    <p>$42.95
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section newGrey darken-2 white-text">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 left-align quickLinks">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li>
+                            <a href="https://en.wikipedia.org/wiki/FAQ">
+                                FAQs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.privacypolicies.com/">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.termsfeed.com/blog/sample-terms-of-use-template/">
+                                Terms of Use
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://termly.io/resources/templates/return-policy-template/">
+                                Refunds & Exchanges
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Do not sell my personal information
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Accessibility
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 right-align">
+                    <img class="materialboxed responsive-img" src="img/feather-footer.png" alt="">
+                </div>
+                <div class="col s12 m4">
+                    <p>
+                        For questions or concerns please contact customer service shop@blueorigin.com. Please allow up
+                        to 2 business days for response.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="center borderTop">
+            <p>
+                © 2023, Blue Origin Shop Powered by BRS Studio
+            </p>
+        </div>
+    </footer>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".dropdown-trigger").dropdown();
+
+            // Filter Collapsible
+            $('.collapsible').collapsible({
+                accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+            });
+        });
+    </script>
+</body>
+
+</html>

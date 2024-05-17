@@ -1,0 +1,353 @@
+nav {
+  background: #0033dd;
+}
+
+/* Brand Logo
+-----------------
+*/
+
+.brand-logo img {
+  max-width: 200px;
+  margin-top: 15px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #fff;
+}
+
+
+/* Header SLider
+-----------------
+*/
+
+#SliderContent h5 {
+  max-width: 400px;
+  font-size: 1.2rem;
+}
+
+.slider h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.slider .btn {
+  margin-top: 20px;
+}
+
+.slider .slides li::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+.slider .slides li img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider .slides li {
+  background-image: url(../img/header-bg.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.dropdown-content {
+  top: 65px!important;
+  width: 100%!important;
+}
+
+/*  New Shepard Section
+------------------------
+*/
+
+#newShepard {
+  background-image: url(../img/home-new-shepard-hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+#newShepard h2 {
+  font-weight: 700;
+  font-size: 5.5rem;
+  color: #fff;
+}
+
+#newShepard h5 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Featured Products
+-----------------------
+*/
+
+#featuredProduct {
+  background-color: #fafafa;
+}
+
+#featuredProduct .card ,
+#fanfavorite .card{
+  min-height: 450px;
+}
+
+#featuredProduct .card .card-content .card-title,
+#fanfavorite .card .card-content .card-title {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+/* Spotlight Products
+-------------------
+*/
+
+#spotLightProducts {
+  background-color: #0033dd;
+  color: #fff;
+}
+
+#spotLightProducts .card {
+  background: none;
+}
+
+#spotLightProducts .card .card-content {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Footer
+-------------------
+*/
+
+footer.newGrey {
+  background-color: #222222;
+  padding-top: 5em;
+}
+
+footer.newGrey .borderTop {
+  border-top: 1px solid rgba(211, 211, 211, 0.151);
+  padding: 2em 0;
+  font-size: 11px;
+}
+
+footer.newGrey p {
+  color: grey;
+}
+
+.btn-brand {
+  background-color: #03d;
+}
+
+.btn-black {
+  background-color: #000;
+}
+
+.dropdown-content {
+  background-color: #0033dd;
+}
+
+.quickLinks h5 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.quickLinks ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.quickLinks ul li a{
+  font-size: 1rem;
+  color: grey;
+}
+
+/* Details Page
+----------------
+*/
+.d-flex {
+  display: flex;
+}
+
+.d-flex li {
+  margin: 0 3px;
+}
+
+table:not([class]) td, table:not([class]) th {
+  padding: 1em;
+  border: 1px solid;
+}
+
+table:not([class]) th {
+  color: #fff;
+  background: #121212;
+}
+
+/* Cart Page
+----------------
+*/
+
+#productDetails {
+  margin-top: 5rem;
+}
+
+.cart-items {
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #e2dede;
+}
+
+a.continueShopping {
+  text-decoration: underline;
+  color: #afaeae;
+  margin-top: 30px;
+  display: block;
+}
+
+.cart-items thead th:first-child {
+  width: 60%;
+}
+
+.cart-items td {
+  vertical-align: top;
+  padding-top: 4rem;
+}
+
+.cart-item-table>td+td {
+  padding-left: 4rem;
+}
+
+.cart-item-image {
+  max-width: 100%;
+  border: 1px solid #e2dede;
+}
+
+.cart-item-media {
+  width: 10rem;
+}
+
+.cart-item-details {
+  width: 50rem;
+}
+
+.cart-padding {
+  padding-left: 4rem;
+}
+
+span {cursor:pointer; }
+
+.number {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  padding: 5px 0;
+}
+
+.minus, .plus {
+  width:40px;
+  height: 35px;
+  text-align: center;
+  background:#fff;
+  border-radius:0px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.number input[type="text"] {
+  height:34px;
+  width: 60px;
+  text-align: center;
+  font-size: 16px;
+  border:1px solid #fff;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+/* Button 
+=-------------
+*/
+
+.cart-footer {
+  width: 35rem;
+  margin-left: auto;
+}
+
+.cart-checkout-button {
+  max-width: 26rem;
+  width: 100%;
+  height: auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/* List Page
+-------------
+*/
+
+.collapsible {
+  background: none;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  background: none;
+  box-shadow: none;
+}
+
+.collapsible-header {
+  background: none;
+}
+
+.rangeSlide {
+  display: flex;
+  align-items: center;
+}
+
+.rangeSlide > div {
+  line-height: 15px;
+}
+
+.rangeSlide input[type="number"] {
+  border: 1px solid #000;
+  margin-left: 15px;
+  margin-bottom: 0;
+  padding: 0 10px;
+}
+
+/* Collapsible arrows for accordion
+--------------------------------------
+*/
+
+li .collapsible-header {
+  justify-content: space-between;
+}
+li .collapsible-header .caret {
+  color: #999;
+  margin-right: 0;
+  transition: transform 0.2s ease;
+}
+li.active .collapsible-header {
+  background-color: black;
+  color: white;
+}
+li.active .collapsible-header .caret {
+  color: white;
+  transform: rotate(-180deg);
+  transform-origin: 0.6em 0.5em;
+}
